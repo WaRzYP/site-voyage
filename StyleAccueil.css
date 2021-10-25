@@ -3,5 +3,12 @@ html,body{
     padding: 0%;
     background-image: url("img graphique/avion-background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
+}
+.Destinations{
+    display: flex;
+    flex-direction: column;
+}
+.Accueil,.Soleil,.Montagne,.Decouvrir{
+    text-decoration: none;
 }
