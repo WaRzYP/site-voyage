@@ -1,16 +1,7 @@
 html,body{
     margin: 0%;
     padding: 0%;
-    background-color: black;
-}
-header{
-    display: flex;
-}
-.divimg{
-    display: inherit;
-}
-img{
-    width: 150px;
-    height: 150px;
-   
+    background-image: url("img graphique/avion-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
