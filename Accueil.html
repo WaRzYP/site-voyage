@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img graphique/M.T.P-logo.png">
+    <link rel="icon" href="img-graphique/M.T.P-logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="StyleAccueil.css">
     <link rel="shylesheet" href="StyleAccueilMedia.css">
     <title>M.T.P Voyages</title>
 </head>
 <body>
     <header>
-        <nav class="Destinations">
+        <nav data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="Destinations">
             <div>
                 <a class="Accueil" href="Accueil.html">Accueil</a>
             </div>
@@ -28,8 +31,12 @@
     </header>
     <main>
         <div class="div2">
-            <a class="logolien" href="Accueil.html"><img class="logo" src="img graphique/M.T.P-logo-white.png" alt=""></a>
+            <a class="logolien" href="Accueil.html"><img class="logo" src="img-graphique/M.T.P-logo-white.png" alt=""></a>
         </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
