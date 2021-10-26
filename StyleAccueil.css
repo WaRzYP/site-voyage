@@ -12,7 +12,7 @@ body{
 .Destinations{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .Accueil,.Soleil,.Montagne,.Decouvrir{
     text-decoration: none;
@@ -41,10 +41,8 @@ a:hover{
     display: none;
 }
 .fond{
+    left: 0%;
     top: 0%;
     position: absolute;
     height: 1250px;  
-}
-.menu{
-    display: none;
 }
