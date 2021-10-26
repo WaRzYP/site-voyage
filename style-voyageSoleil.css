@@ -1,0 +1,23 @@
+.logo{
+    width: 15vw;
+}
+
+
+.punta-cana{
+    width: 75vw;
+}
+
+body{
+    background-image: url("img-pays/republique-dominicaine/dominican-republic-2236960_1920.jpg");
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    font-size: 36px;
+}
+
+.titre{
+    margin: 200px;
+    padding: ;
+}
