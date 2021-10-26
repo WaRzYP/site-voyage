@@ -20,7 +20,7 @@ body{
 }
 
 .content-article{
-    background-image: url("img-pays/republique-dominicaine/dominican-republic-2236960_1920.jpg");   
+    background-image: url("img-pays/Norvege/norvege.png");   
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -68,19 +68,19 @@ p{
     justify-content: center;
     align-items: center;
 }
-/* Maroc */
+/* Autriche */
 
 
 
-.Maroc{
-    background-image: url("img-pays/Maroc/desert-4944794_1920.jpg");
+.Autriche{
+    background-image: url("img-pays/Autriche/autriche.png");
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.titre-maroc{
+.titre-autriche{
     display: flex;
     align-items: center;
     margin-right: 30px;
@@ -115,17 +115,17 @@ p{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Maldives */
+/* Suisse */
 
-    .Maldives{
-        background-image: url("img-pays/maldives/maldives-1044368_1920.jpg");
+    .Suisse{
+        background-image: url("img-pays/Suisse/suisse.png");
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .titre-maldives{
+    .titre-suisse{
         display: flex;
         align-items: center;
         margin: 200px;
