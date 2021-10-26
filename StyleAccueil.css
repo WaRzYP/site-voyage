@@ -45,3 +45,6 @@ a:hover{
     position: absolute;
     height: 1250px;  
 }
+.menu{
+    display: none;
+}
