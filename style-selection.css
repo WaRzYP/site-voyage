@@ -1,0 +1,158 @@
+html,body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+    /*Canada*/
+
+    .logo{
+        width: 9vw;
+    }
+
+    .content-article{
+        background-image: url("img-pays/Canada/toronto-73508_1920.jpg");   
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .article{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        justify-content: center;
+        height: 500px;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+        color: white; 
+        font-size: 36px;
+    }
+
+    .savoir{
+        width: 538px;
+        display:  flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        opacity: 60%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.2s;
+    }
+
+    .savoir:hover{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .text-savoir{
+        color: black;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* Amsterdam */
+
+    .Amsterdam{
+        background-image: url("img-pays/Pays-bas/sunset-g2160d2cb6_1920.jpg");
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .titre-amsterdam{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        justify-content: center;
+    }
+
+    .text-savoir2{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: flex;
+    }
+
+    .savoir2{
+        width: 538px;
+        display:flex;
+        align-items: center;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        opacity: 60%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.2s;
+        justify-content: center;
+    }
+
+    .savoir2:hover{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+/* New-York */
+
+    .New-york{
+        background-image: url("img-pays/etat-unis/statue-of-liberty-g46ad9c712_1920.jpg");
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;       
+    }
+
+    .titre-new-york{
+        display: flex;
+        align-items: center;
+        margin: 200px;
+        justify-content: center;
+    }
+
+    .savoir3{
+        width: 538px;
+        display:flex;
+        align-items: center;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        opacity: 60%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.2s;
+        justify-content: center;
+    }
+
+    .text-savoir3{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: flex;
+    }
+
+    .savoir3:hover{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
