@@ -2,71 +2,50 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Canada</title>
-    <link rel="stylesheet" href="description.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"></head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Canada</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="img-graphique/M.T.P-logo.png">
+  <link rel="stylesheet" href="description.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+</head>
 
 <body>
-    <header>
-        <a href="index.html"><img class="logo" src="img-graphique/M.T.P-logo.png" alt=""></a>
-        <div class="titre">Le Canada <br> <span> Toronto</span></div>
-    </header>
+  <header>
+    <a href="index.html"><img class="logo" data-aos="zoom-in" data-aos-duration="2000"
+        src="img-graphique/M.T.P-logo.png" alt="" /></a>
+  </header>
 
-    <main>
-        <section class="slider">
+  <main>
+    <video id="background-video" autoplay loop muted poster="...">
+      <source src="video-background/yt5s.com-Toronto 8K-(1080p).mkv" type="video/mp4" />
+    </video>
+    <section data-aos="fade-right" data-aos-duration="2000">
+      <div class="titre">Canada <br> Toronto</div>
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img-pays/Canada/toronto-73508_1920.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Toronto</h5>
-                  <p>Un voyage d’exception dans l’une des plus grande ville du Canada, logé dans l’un des hôtel les plus prestigieu de la ville, le Best Western Premier. Du 15/11/2021 au 25/11/2021</p>
-                
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img-pays/Autriche/autriche.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img-pays/maldives/maldives.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </section> 
+      <div class="description">
+        Un voyage d’exception dans l’une des plus grandes villes du Canada,
+        logé dans l’hôtel le plus prestigieux de la ville,
+        le Best Western Premier.
+        <br />
+        Du 15/11/2021 au 25/11/2021
+      </div>
+      <div class="sous-titre">À partir de 3900€
+      </div>
+      <a class="btn" href="#"><span class="textbtn">Réserver</span></a>
+    </section>
 
-    </main>
+  </main>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script></body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 
 </html>
