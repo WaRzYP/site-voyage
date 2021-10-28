@@ -13,7 +13,7 @@ body{
     margin:0;
 }
 
-/* Norvège */
+/* République Dominicaine */
 
 .logo{
     width: 9vw;
@@ -159,3 +159,108 @@ p{
         background-color: rgba(255, 255, 255, 0.8);
     }
     
+    
+        /* smartphone */
+    
+        @media screen and (max-width:800px) {
+        
+            .main{
+                width: 800px;
+                display: flex;
+            }
+    
+            header{
+                display:flex;
+                align-items: center;
+    
+            }
+    
+            .logo{
+                width: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+    
+            /*République Dominicaine*/
+    
+            .savoir{
+                width: 300px;
+                display:flex;
+                align-items: center;
+                height: 100px;
+                background: #FFFFFF;
+                border-radius: 30px;
+                opacity: 60%;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 25px;
+                transition: 0.2s;
+                justify-content: center;
+            }
+    
+            .article{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap:wrap;
+            }
+    
+            .content-article{
+                width: 800px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+    
+            /*Maroc*/
+    
+            .savoir2{
+                width: 300px;
+                display:flex;
+                align-items: center;
+                height: 100px;
+                background: #FFFFFF;
+                border-radius: 30px;
+                opacity: 60%;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 25px;
+                transition: 0.2s;
+                justify-content: center;
+            }
+    
+            .Maroc{
+                width: 800px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+    
+            /*Maldives*/
+    
+            .savoir3{
+                width: 300px;
+                display:flex;
+                align-items: center;
+                height: 100px;
+                background: #FFFFFF;
+                border-radius: 30px;
+                opacity: 60%;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 25px;
+                transition: 0.2s;
+                justify-content: center;
+            }
+       
+            .Maldives{
+                width: 800px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                
+
+            }
+        }
