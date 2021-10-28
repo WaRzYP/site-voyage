@@ -1,21 +1,2 @@
-@media (min-width: 958px) {
-.menu-content-div{
-    display: none;
-    justify-content: center;
-    justify-items:center;
-}    
 
-}
-@media (max-width: 959px) {
-    .Accueil,.Soleil,.Montagne,.Decouvrir {
-        display: none;
-    }
-.menu-content-div{
-    display: flex;
-    justify-content: center;
-    justify-items:center;
-    margin-top: 50px;
-}
-
-}
 
