@@ -1,0 +1,19 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.titre{
+    margin-left: 25%;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
