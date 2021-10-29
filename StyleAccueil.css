@@ -38,12 +38,17 @@ main{
     height: 500px;
     width: 500px;
 }
-.logo1{
-    display: flex;
-    justify-content: center ;
-    justify-items: center;
-    
+
+.logolien{
+display: flex;
+justify-content: flex-end;
+
 }
+
+.logo1 {
+    margin-right: 70px;
+}
+
 a:hover{
     text-decoration: underline;
     color: wheat;
