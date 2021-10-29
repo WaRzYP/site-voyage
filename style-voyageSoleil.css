@@ -13,6 +13,29 @@ body{
     margin:0;
 }
 
+.lienfooter{
+    text-align: center;
+    padding: 0;
+  }
+  
+  .footer {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+  }
+  
+  .footer:hover {
+    text-decoration: underline;
+    color: wheat;
+    transition: 1s;
+  }
+
+  .le-bas-de-page{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+
 /* République Dominicaine */
 
 .logo{
@@ -25,6 +48,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .article{
@@ -54,7 +78,6 @@ p{
     font-weight: bold;
     font-size: 25px;
     transition: 0.2s;
-
 }
 
 .savoir:hover{
@@ -68,9 +91,8 @@ p{
     justify-content: center;
     align-items: center;
 }
+
 /* Maroc */
-
-
 
 .Maroc{
     background-image: url("img-pays/Maroc/desert-4944794_1920.jpg");
@@ -78,6 +100,7 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .titre-maroc{
@@ -93,7 +116,6 @@ p{
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
-
 }
 
 .savoir2{
@@ -123,6 +145,8 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+
     }
 
     .titre-maldives{
@@ -159,20 +183,13 @@ p{
         background-color: rgba(255, 255, 255, 0.8);
     }
     
-    
         /* smartphone */
     
-        @media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
         
-            .main{
-                width: 800px;
-                display: flex;
-            }
-    
             header{
                 display:flex;
                 align-items: center;
-    
             }
     
             .logo{
@@ -180,7 +197,7 @@ p{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                
+                left: 0;              
             }
     
             /*République Dominicaine*/
@@ -212,6 +229,7 @@ p{
                 flex-direction: column;
                 display: flex;
                 align-items: center;
+            
             }
     
             /*Maroc*/
@@ -260,7 +278,24 @@ p{
                 flex-direction: column;
                 display: flex;
                 align-items: center;
-                
-
             }
+
+                    /*Footer*/
+
+        .footer {
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+          
+          .footer:hover {
+            text-decoration: underline;
+            color: wheat;
+            transition: 1s;
+          }
+        
+          .le-bas-de-page{
+            position:fixed;
+          }
         }
