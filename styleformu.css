@@ -1,0 +1,39 @@
+.logo{
+    height: 250px;
+    width: 250px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    font-size: 3em;
+    text-align: center;
+}
+.lienfooter{
+    text-align: center;
+    margin-top: 250px;
+}
+.footer{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+}
+.check{
+    display: flex;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    justify-items: center;
+}
+.divg{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+button{
+    margin-left: 50%;
+}

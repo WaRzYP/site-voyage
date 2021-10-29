@@ -1,0 +1,301 @@
+html,body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+body{
+    padding: 0;
+    margin:0;
+}
+
+.lienfooter{
+    text-align: center;
+    padding: 0;
+  }
+  
+  .footer {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+  }
+  
+  .footer:hover {
+    text-decoration: underline;
+    color: wheat;
+    transition: 1s;
+  }
+
+  .le-bas-de-page{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+
+/* République Dominicaine */
+
+.logo{
+    width: 9vw;
+}
+
+.content-article{
+    background-image: url("img-pays/republique-dominicaine/dominican-republic-2236960_1920.jpg");   
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.article{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: center;
+    height: 500px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white; 
+    font-size: 36px;
+}
+
+.savoir{
+    width: 538px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    opacity: 60%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.savoir:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text-savoir{
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Maroc */
+
+.Maroc{
+    background-image: url("img-pays/Maroc/desert-4944794_1920.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titre-maroc{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+.text-savoir2{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
+
+.savoir2{
+    width: 538px;
+    display:flex;
+    align-items: center;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    opacity: 60%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.2s;
+    justify-content: center;
+}
+
+.savoir2:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Maldives */
+
+    .Maldives{
+        background-image: url("img-pays/maldives/maldives-1044368_1920.jpg");
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .titre-maldives{
+        display: flex;
+        align-items: center;
+        margin: 200px;
+        justify-content: center;
+    }
+
+    .savoir3{
+        width: 538px;
+        display:flex;
+        align-items: center;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        opacity: 60%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        transition: 0.2s;
+        justify-content: center;
+    }
+
+    .text-savoir3{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: flex;
+    }
+
+    .savoir3:hover{
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+        /* smartphone */
+    
+@media screen and (max-width:800px) {
+        
+            header{
+                display:flex;
+                align-items: center;
+            }
+    
+            .logo{
+                width: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                left: 0;              
+            }
+    
+            /*République Dominicaine*/
+    
+            .savoir{
+                width: 300px;
+                display:flex;
+                align-items: center;
+                height: 100px;
+                background: #FFFFFF;
+                border-radius: 30px;
+                opacity: 60%;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 25px;
+                transition: 0.2s;
+                justify-content: center;
+            }
+    
+            .article{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap:wrap;
+            }
+    
+            .content-article{
+                width: 800px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            
+            }
+    
+            /*Maroc*/
+    
+            .savoir2{
+                width: 300px;
+                display:flex;
+                align-items: center;
+                height: 100px;
+                background: #FFFFFF;
+                border-radius: 30px;
+                opacity: 60%;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 25px;
+                transition: 0.2s;
+                justify-content: center;
+            }
+    
+            .Maroc{
+                width: 800px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+    
+            /*Maldives*/
+    
+            .savoir3{
+                width: 300px;
+                display:flex;
+                align-items: center;
+                height: 100px;
+                background: #FFFFFF;
+                border-radius: 30px;
+                opacity: 60%;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 25px;
+                transition: 0.2s;
+                justify-content: center;
+            }
+       
+            .Maldives{
+                width: 800px;
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+
+                    /*Footer*/
+
+        .footer {
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+          
+          .footer:hover {
+            text-decoration: underline;
+            color: wheat;
+            transition: 1s;
+          }
+        
+          .le-bas-de-page{
+            position:fixed;
+          }
+        }
