@@ -13,6 +13,29 @@ body{
     margin:0;
 }
 
+.footer {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+
+.lienfooter{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .footer:hover {
+    text-decoration: underline;
+    color: wheat;
+    transition: 1s;
+  }
+
+  .le-bas-de-page{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+
 /* Norvège */
 
 .logo{
@@ -93,7 +116,6 @@ p{
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
-
 }
 
 .savoir2{
@@ -123,7 +145,7 @@ p{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        
+        flex-wrap: wrap;     
     }
 
     .titre-suisse{
@@ -164,15 +186,9 @@ p{
     
         @media screen and (max-width:800px) {
         
-            .main{
-                width: 800px;
-                display: flex;
-            }
-    
             header{
                 display:flex;
                 align-items: center;
-    
             }
     
             .logo{
@@ -263,4 +279,26 @@ p{
                 
 
             }
+        
+                    /*Footer*/
+
+        .footer {
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
+          
+          .footer:hover {
+            text-decoration: underline;
+            color: wheat;
+            transition: 1s;
+          }
+        
+          .le-bas-de-page{
+            position:fixed;
+          }
+        
+        
+        }
+
