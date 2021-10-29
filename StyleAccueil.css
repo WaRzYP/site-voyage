@@ -16,6 +16,7 @@ body{
     margin-top: 50px;
 }
 .Accueil,.Soleil,.Montagne,.Decouvrir{
+    display: flex;
     text-decoration: none;
     margin-left: 80px;
     color: white;
@@ -29,10 +30,19 @@ main{
     justify-content: center;
     margin-top: 50px;
 }
-
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
 .logo{
     height: 500px;
     width: 500px;
+}
+.logo1{
+    display: flex;
+    justify-content: center ;
+    justify-items: center;
+    
 }
 a:hover{
     text-decoration: underline;
