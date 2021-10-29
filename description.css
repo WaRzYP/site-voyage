@@ -91,6 +91,23 @@ main {
   opacity: 0.5;
 }
 
+.lienfooter{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer {
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+}
+
+.footer:hover {
+  text-decoration: underline;
+  color: wheat;
+  transition: 1s;
+}
+
 @media screen and (max-width:600px) {
 
   .titre {
@@ -120,4 +137,3 @@ main {
   .textbtn {
     font-size: 1em;
   }
-}
